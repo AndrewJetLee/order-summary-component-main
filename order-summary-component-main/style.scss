@@ -3,6 +3,11 @@ body {
   background-image: url('./images/pattern-background-desktop.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  .attribution {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
 }
 
 .card {
@@ -12,6 +17,7 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 70vh;
+  min-height: 600px;
   width: 450px;
   border-radius: 30px;
   position: absolute;
